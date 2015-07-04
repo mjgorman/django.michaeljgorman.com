@@ -10,6 +10,7 @@ import os, sys
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings.development")
 sys.path.append('/var/www/edge/edge_test/src/edge_test')
 sys.path.append('/var/www/edge/edge_test/src/')
+sys.path.append('/var/www/edge/edge_test/')
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
